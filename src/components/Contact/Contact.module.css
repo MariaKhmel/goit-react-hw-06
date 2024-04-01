@@ -1,0 +1,25 @@
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  height: 100px;
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.contactData {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 16px;
+}
