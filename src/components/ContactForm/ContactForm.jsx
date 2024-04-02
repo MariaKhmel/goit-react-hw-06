@@ -19,7 +19,7 @@ const schema = Yup.object({
     .required("Required"),
 });
 
-const ContactForm = ({ onFormSumbit }) => {
+const ContactForm = () => {
   const dispatch = useDispatch();
 
   const onHandleForm = (values) => {
@@ -64,5 +64,3 @@ const ContactForm = ({ onFormSumbit }) => {
 };
 
 export default ContactForm;
-
-//  { "id": "id-1", "name": "Rosie Simpson", "number": "459-12-56" }
